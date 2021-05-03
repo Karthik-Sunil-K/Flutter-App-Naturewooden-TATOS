@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    padding: EdgeInsets.fromLTRB(20, 78, 0, 0),
+                    padding: EdgeInsets.fromLTRB(20, 79, 0, 0),
                     child: Text(
                       'Signing up or login to see \nour top pics for you',
                       style: TextStyle(color: Color(0xff633820),fontSize: 18),
