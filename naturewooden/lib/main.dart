@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
         body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
               child: Stack(
@@ -40,43 +41,65 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(color: Color(0xff633820), fontSize: 18),
                     ),
                   ),
-                  Container(
-                    padding: EdgeInsets.fromLTRB(20, 160, 0, 0),
-                    child: Text(
-                      'Email Address',
-                      style: TextStyle(color: Color(0xff633820), fontSize: 18),
+                ],
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.fromLTRB(20, 30, 0, 0),
+              child: Text(
+                'Email Address',
+                style: TextStyle(color: Color(0xff633820), fontSize: 18),
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.fromLTRB(20, 15, 20, 0),
+              child: Column(
+                children: [
+                  TextField(
+                    decoration: InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Color(0xff633820))),
+                      focusColor: Color(0xff633820),
+
+                      border: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.green)),
+                      hintText: 'GuySimmmons@gmail.com',
+                      // labelText: "Enter Email",
+                      labelStyle: TextStyle(color: Color(0xff633820)),
+                      // fillColor: Colors.grey,
+                      //fillColor: Colors.green
                     ),
+                    keyboardType: TextInputType.emailAddress,
                   ),
-                  Container(
-                    padding: EdgeInsets.fromLTRB(20, 210, 20, 0),
-                    child: Column(
-                      children: [
-                        TextField(
-                          decoration: InputDecoration(
-                    
-                            
-                            focusedBorder: InputBorder.none,
-                            focusColor: Color(0xff633820),
-                            // enabledBorder: InputBorder.none,
-                            hintText:'GuySimmmons@gmail.com',
-                            // labelText: "Enter Email",
-                            labelStyle: TextStyle(color: Color(0xff633820)),
-                            fillColor: Colors.grey,
-                            border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(5.0),
-                              borderSide: BorderSide(
-                                color: Colors.green,
-                                width: 50,
-                              ),
-        
-                            ),
-                            //fillColor: Colors.green
-                          ),
-                        
-                          keyboardType: TextInputType.emailAddress,
-                        ),
-                      ],
+                ],
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.fromLTRB(20, 20, 0, 0),
+              child: Text(
+                'Password',
+                style: TextStyle(color: Color(0xff633820), fontSize: 18),
+              ),
+            ),
+            Container(
+              padding: EdgeInsets.fromLTRB(20, 15, 20, 0),
+              child: Column(
+                children: [
+                  TextField(
+                    decoration: InputDecoration(
+                      focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(color: Color(0xff633820))),
+                      focusColor: Color(0xff633820),
+
+                      border: OutlineInputBorder(
+                          borderSide: BorderSide(color: Colors.green)),
+                      // labelText: "Enter Email",
+                      labelStyle: TextStyle(color: Color(0xff633820)),
+                      // fillColor: Colors.grey,
+                      //fillColor: Colors.green
                     ),
+                    keyboardType: TextInputType.visiblePassword,
+                    obscureText: true,
                   ),
                 ],
               ),
