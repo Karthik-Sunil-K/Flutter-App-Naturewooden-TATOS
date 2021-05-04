@@ -104,6 +104,25 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
+            Container(
+              padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
+              width: double.infinity,
+              height: 70,
+              child: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5)),
+                color: Color(0xff6A9347),
+                child: Text(
+                  'Login',
+                  style: TextStyle(
+                      fontSize: 16,
+                      fontFamily: 'SF Pro Text',
+                      fontWeight: FontWeight.w300),
+                ),
+                textColor: Colors.white,
+                onPressed: () {},
+              ),
+            ),
           ],
         ),
       ),
