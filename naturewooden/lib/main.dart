@@ -123,6 +123,52 @@ class MyApp extends StatelessWidget {
                 onPressed: () {},
               ),
             ),
+            Container(
+              alignment: Alignment.center,
+              padding: EdgeInsets.only(top: 20),
+              child: InkWell(
+                child: Text(
+                  'Forget password?',
+                  style: TextStyle(
+                      fontSize: 17,
+                      fontFamily: 'SF Pro Text',
+                      fontWeight: FontWeight.w400,
+                      color: Color(0xff6979F8)),
+                ),
+              ),
+            ),
+             Container(
+              alignment: Alignment.center,
+              padding: EdgeInsets.only(top: 40),
+             
+                child: Text(
+                  'Or Login with',
+                  style: TextStyle(
+                      fontSize: 17,
+                      fontFamily: 'SF Pro Text',
+                      fontWeight: FontWeight.w400,
+                      color: Color(0xff633820)),
+                ),
+              ),
+               Container(
+              padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
+              width: double.infinity,
+              height: 70,
+              child: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(5)),
+                color: Color(0xffE1A067),
+                child: Text(
+                  'Continue with Google',
+                  style: TextStyle(
+                      fontSize: 16,
+                      fontFamily: 'SF Pro Text',
+                      fontWeight: FontWeight.w300),
+                ),
+                textColor: Colors.white,
+                onPressed: () {},
+              ),
+            ),
           ],
         ),
       ),
