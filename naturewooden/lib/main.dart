@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:naturewooden/signUp.dart';
 import 'package:naturewooden/login.dart';
-import 'package:naturewooden/chekoutPage.dart';
+import 'package:naturewooden/profilePage.dart';
 
 
 void main() {
-  runApp(ChekoutPage());
+  runApp(ProfilePage());
 }
