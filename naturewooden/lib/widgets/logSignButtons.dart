@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-Widget logSignButton({String buttonText}) {
+Widget logSignButton({String buttonText,int colorButton}) {
   return Container(
     padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
     width: double.infinity,
     height: 70,
     child: RaisedButton(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-      color: Color(0xff6A9347),
+      color: Color(colorButton),
       child: Text(
         buttonText,
         style: TextStyle(

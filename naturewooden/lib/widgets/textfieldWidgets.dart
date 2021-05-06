@@ -18,8 +18,8 @@ Widget textFieldBox({String hintTextEmail, bool hiding, double padTop}) {
         TextField(
           decoration: InputDecoration(
             focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(color: Color(0xff633820))),
-            focusColor: Color(0xff633820),
+                borderSide: BorderSide(color: Color(0xffe1a067))),
+            focusColor: Color(0xffe1a067),
             border:
                 OutlineInputBorder(borderSide: BorderSide(color: Colors.green)),
             hintText: hintTextEmail,

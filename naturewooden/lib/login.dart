@@ -32,39 +32,11 @@ class LoginPage extends StatelessWidget {
               textFieldBox(hintTextEmail: 'GuySimmmons@gmail.com',hiding: false),
               textFieldHeads(textFieldLabel: 'Password'),
               textFieldBox(hiding: true),
-              logSignButton(buttonText:'Login'),
+              logSignButton(buttonText:'Login',colorButton: 0xff6A9347),
               forgotLabel(normalText: '',inkWell:'Forgot Password?'),
-               Container(
-                alignment: Alignment.center,
-                padding: EdgeInsets.only(top: 40),
-                  child: Text(
-                    'Or Login with',
-                    style: TextStyle(
-                        fontSize: 17,
-                        fontFamily: 'SF Pro Text',
-                        fontWeight: FontWeight.w400,
-                        color: Color(0xff633820)),
-                  ),
-                ),
-                 Container(
-                padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
-                width: double.infinity,
-                height: 70,
-                child: RaisedButton(
-                  shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(5)),
-                  color: Color(0xffE1A067),
-                  child: Text(
-                    'Continue with Google',
-                    style: TextStyle(
-                        fontSize: 16,
-                        fontFamily: 'SF Pro Text',
-                        fontWeight: FontWeight.w300),
-                  ),
-                  textColor: Colors.white,
-                  onPressed: () {},
-                ),
-              ),
+              SizedBox(height: 30,),
+               forgotLabel(normalText:'Or Login with',inkWell:''),
+               logSignButton(buttonText:'Continue with Google',colorButton: 0xffE1A067),
               forgotLabel(normalText:'No account?',inkWell:'Create one.'),
             ],
           ),
