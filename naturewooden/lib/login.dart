@@ -17,9 +17,12 @@ class LoginPage extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Color(0xfffffff),
           elevation: 0,
-          leading: Icon(
-            Icons.close,
-            color: Color(0xff151522),
+          leading: IconButton(
+                      icon: Icon(
+              Icons.close,
+              color: Color(0xff151522),
+            ),
+            onPressed: (){Navigator.of(context).pop();},
           ),
         ),
         body: SingleChildScrollView(

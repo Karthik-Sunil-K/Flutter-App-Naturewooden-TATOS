@@ -4,9 +4,10 @@ import 'package:naturewooden/widgets/textfieldWidgets.dart';
 import 'package:naturewooden/widgets/logSignButtons.dart';
 import 'package:naturewooden/widgets/assets.dart';
 
+// ignore: must_be_immutable
 class ProfilePage extends StatelessWidget {
   Widget sizeBox15 =  SizedBox(height: 15);
-  Widget sizeBox20  =  SizedBox(height: 15);
+  Widget sizeBox20  =  SizedBox(height: 16);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,10 +24,15 @@ class ProfilePage extends StatelessWidget {
           ),
           backgroundColor: Color(0xfffffff),
           elevation: 0,
-          leading: Icon(
-            Icons.arrow_back_ios,
-            color: Color(0xff633820),
-            size: 20.0,
+          leading: IconButton(
+                      icon: Icon(
+              Icons.arrow_back_ios,
+              color: Color(0xff633820),
+              size: 20.0,
+            ),
+            onPressed: (){
+              Navigator.of(context).pop();
+            },
           ),
         ),
         body: ListView(

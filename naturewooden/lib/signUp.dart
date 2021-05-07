@@ -3,7 +3,12 @@ import 'package:naturewooden/widgets/welcomeText.dart';
 import 'package:naturewooden/widgets/textfieldWidgets.dart';
 import 'package:naturewooden/widgets/logSignButtons.dart';
 
-class SignUpPage extends StatelessWidget {
+class SignUpPage extends StatefulWidget {
+  @override
+  _SignUpPageState createState() => _SignUpPageState();
+}
+
+class _SignUpPageState extends State<SignUpPage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

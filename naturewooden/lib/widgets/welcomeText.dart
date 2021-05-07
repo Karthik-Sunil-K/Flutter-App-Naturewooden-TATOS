@@ -25,6 +25,15 @@ Widget loginWelcomeText() {
     ),
   );
 }
+Widget productName() {
+  return Container(
+    child: Stack(
+      children: [
+        headingText(titleText: 'Osmind\nArmchair'),
+      ],
+    ),
+  );
+}
 
 Widget headingText({String titleText}) {
   return Container(
