@@ -7,5 +7,5 @@ import 'package:naturewooden/detailsPage.dart';
 
 
 void main() {
-  runApp(LoginPage());
+  runApp(SignUpPage());
 }

@@ -6,6 +6,7 @@ String chair2 = 'assets/face/chair2png.jpg';
 String arrow = 'icons/Arrows/move.svg';
 String message = 'icons/Messaging/archive.svg';
 String award = 'icons/Misc/award.svg';
+String google = 'icons/Vector.svg';
 String flag = 'icons/Popular/flag.svg';
 
 

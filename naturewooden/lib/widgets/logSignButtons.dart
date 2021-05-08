@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 Widget logSignButton({String buttonText,int colorButton}) {
   return Container(
     padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
@@ -49,23 +50,28 @@ Widget forgotLabel({String normalText, String inkWell}) {
 }
 //google button testing
 
-Widget signButtonGoogle({String buttonText,int colorButton}) {
-  return Container(
-    padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
-    width: double.infinity,
-    height: 70,
-    child: RaisedButton(
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
-      color: Color(colorButton),
-      child: Text(
-        buttonText,
-        style: TextStyle(
-            fontSize: 16,
-            fontFamily: 'Poppins',
-            fontWeight: FontWeight.w300),
-      ),
-      textColor: Colors.white,
-      onPressed: () {},
-    ),
-  );
-}
+// Widget signButtonGoogle({String buttonText,int colorButton}) {
+//   return Container(
+//     padding: EdgeInsets.fromLTRB(20, 20, 20, 0),
+//     width: double.infinity,
+//     height: 70,
+//     child: RaisedButton(
+//       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(5)),
+//       color: Color(colorButton),
+//       child: Row(
+//         children: [
+          
+//           Text(
+//             buttonText,
+//             style: TextStyle(
+//                 fontSize: 16,
+//                 fontFamily: 'Poppins',
+//                 fontWeight: FontWeight.w300),
+//           ),
+//         ],
+//       ),
+//       textColor: Colors.white,
+//       onPressed: () {},
+//     ),
+//   );
+// }

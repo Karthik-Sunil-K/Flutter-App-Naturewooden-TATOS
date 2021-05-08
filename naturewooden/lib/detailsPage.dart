@@ -83,8 +83,8 @@ class ProductDetails extends StatelessWidget {
                   ),
                   
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(30, 260, 30, 0),
-                    child: logSignButton(buttonText: 'Save', colorButton: 0xff6A9347),
+                    padding: const EdgeInsets.fromLTRB(20, 260, 20, 0),
+                    child: logSignButton(buttonText: 'Add to Cart', colorButton: 0xff6A9347),
                   ),
                 ],
               ),
