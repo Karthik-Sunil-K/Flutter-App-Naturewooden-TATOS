@@ -5,8 +5,8 @@
 <img src="https://user-images.githubusercontent.com/62179996/117551081-7d927a80-b061-11eb-80d2-376f6541dce7.png" width="30%" align="left" padding='50'/>
 <img src="https://user-images.githubusercontent.com/62179996/117551089-85eab580-b061-11eb-9f9a-7732f9580516.png" width="30%" align="left" padding='50'/>
 <img src="https://user-images.githubusercontent.com/62179996/117551095-8daa5a00-b061-11eb-8ae4-7f5e78996294.png" width="30%" align="left" padding='50'/>
-<img src="https://user-images.githubusercontent.com/62179996/117551062-60f64280-b061-11eb-8a78-3654a5befd23.png" width="50%" align="left" padding='50'/>
-<img src="https://user-images.githubusercontent.com/62179996/117551069-710e2200-b061-11eb-960a-5467ffd30698.png" width="50%" align="left" padding='50'/>
+<img src="https://user-images.githubusercontent.com/62179996/117551062-60f64280-b061-11eb-8a78-3654a5befd23.png" width="40%" align="left" padding='40'/>
+<img src="https://user-images.githubusercontent.com/62179996/117551069-710e2200-b061-11eb-960a-5467ffd30698.png" width="40%" align="left" padding='40'/>
 
 
 <!-- ![Screenshot_1620499700_iphone12black_portrait](https://user-images.githubusercontent.com/62179996/117551042-47ed9180-b061-11eb-87f9-7f91923b2795.png)
