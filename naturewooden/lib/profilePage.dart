@@ -64,7 +64,7 @@ class ProfilePage extends StatelessWidget {
             sizeBox15,
             textFieldBox(hintTextEmail: '', hiding: false, padTop: 5),
             sizeBox20,
-            logSignButton(buttonText: 'Next', colorButton: 0xff6A9347),
+            logSignButton(buttonText: 'Save', colorButton: 0xff6A9347),
             sizeBox20,
             sizeBox20
           ],

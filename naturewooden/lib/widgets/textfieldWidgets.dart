@@ -5,7 +5,7 @@ Widget textFieldHeads({String textFieldLabel, double padTop}) {
     padding: EdgeInsets.fromLTRB(20, 18, 0, 0),
     child: Text(
       textFieldLabel,
-      style: TextStyle(color: Color(0xff633820), fontSize: 18),
+      style: TextStyle(color: Color(0xff633820), fontFamily: 'Poppins',fontWeight: FontWeight.w300, fontSize: 15),
     ),
   );
 }
@@ -21,7 +21,7 @@ Widget textFieldBox({String hintTextEmail, bool hiding, double padTop}) {
                 borderSide: BorderSide(color: Color(0xffe1a067))),
             focusColor: Color(0xffe1a067),
             border:
-                OutlineInputBorder(borderSide: BorderSide(color: Colors.green)),
+                OutlineInputBorder(borderSide: BorderSide(color: Color(0xfffffff))),
             hintText: hintTextEmail,
             // labelText: "Enter Email",
             labelStyle: TextStyle(color: Color(0xff633820)),

@@ -18,8 +18,8 @@ Widget loginWelcomeText() {
   return Container(
     child: Stack(
       children: [
-        headingText(titleText: 'Welcome Back'),
-        headingContent(
+        headingTextLog(titleText: 'Welcome Back'),
+        headingContentLog(
             headingContent: 'Signing up or login to see \nour top pics for you'),
       ],
     ),
@@ -29,7 +29,7 @@ Widget productName() {
   return Container(
     child: Stack(
       children: [
-        headingText(titleText: 'Osmind\nArmchair'),
+        productHeadingText(titleText: 'Osmind\nArmchair'),
       ],
     ),
   );
@@ -37,21 +37,56 @@ Widget productName() {
 
 Widget headingText({String titleText}) {
   return Container(
-    padding: EdgeInsets.fromLTRB(20, 30, 0, 0),
+    alignment: Alignment.center,
+    padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
     child: Text(
       titleText,
       style: TextStyle(
-          color: Color(0xff633820), fontSize: 30, fontWeight: FontWeight.w600),
+          color: Color(0xff633820), fontSize: 30, fontFamily: 'Poppins', fontWeight: FontWeight.w400),
     ),
   );
 }
 
 Widget headingContent({String headingContent}) {
   return Container(
-    padding: EdgeInsets.fromLTRB(20, 79, 0, 0),
+    alignment: Alignment.center,
+    padding: EdgeInsets.fromLTRB(20, 79, 20, 0),
     child: Text(
       headingContent,
-      style: TextStyle(color: Color(0xff633820), fontSize: 18),
+      style: TextStyle(color: Color(0xff633820), fontSize: 18,fontFamily:'Poppins',fontWeight:FontWeight.w400  ),
+    ),
+  );
+}
+
+Widget productHeadingText({String titleText}) {
+  return Container(
+    padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
+    child: Text(
+      titleText,
+      style: TextStyle(
+          color: Color(0xff633820), fontSize: 25, fontWeight: FontWeight.w600,fontFamily: 'Poppins'),
+    ),
+  );
+}
+Widget headingTextLog({String titleText}) {
+  return Container(
+    
+    padding: EdgeInsets.fromLTRB(20, 30, 20, 0),
+    child: Text(
+      titleText,
+      style: TextStyle(
+          color: Color(0xff633820), fontSize: 30, fontFamily: 'Poppins', fontWeight: FontWeight.w400),
+    ),
+  );
+}
+
+Widget headingContentLog({String headingContent}) {
+  return Container(
+    
+    padding: EdgeInsets.fromLTRB(20, 79, 20, 0),
+    child: Text(
+      headingContent,
+      style: TextStyle(color: Color(0xff633820), fontSize: 18,fontFamily:'Poppins',fontWeight:FontWeight.w400  ),
     ),
   );
 }

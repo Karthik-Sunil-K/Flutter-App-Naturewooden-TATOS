@@ -33,7 +33,7 @@ class _SignUpPageState extends State<SignUpPage> {
                 child: signWelcomeText(),
               ),
               SizedBox(height: 10,),
-              textFieldHeads(textFieldLabel: 'Email Adrexxx',padTop:5 ),
+              textFieldHeads(textFieldLabel: 'Email Address',padTop:5 ),
               textFieldBox(hintTextEmail: 'GuySimmmons@gmail.com',hiding: false,padTop:5),
               textFieldHeads(textFieldLabel: 'Password',padTop:5 ),
               textFieldBox(hiding: true,padTop:5 ),
